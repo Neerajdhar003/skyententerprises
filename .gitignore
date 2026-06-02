@@ -1,0 +1,36 @@
+# Sensitive files
+config/database.php
+.env
+
+# Uploaded files (won't work on Vercel anyway)
+uploads/
+resumes/
+
+# Log files
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+
+# Backup files
+*.sql
+*.bak
+*.old
+
+# Composer
+vendor/
+composer.lock
+
+# Node modules
+node_modules/
+
+# Vercel
+.vercel/
